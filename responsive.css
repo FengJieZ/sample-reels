@@ -1,0 +1,30 @@
+@media screen and (max-width: 360px) {
+    .header {
+        box-shadow: none;
+    }
+
+    .header_logo {
+        height: 50px;
+        margin-top: 80px;
+    }
+
+    .header_title {
+        font-size: 1.6em;
+        margin-top: 90px;
+    }
+
+    .header_content {
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .work_inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .work_i {
+        width: 33.3%;
+    }
+
+}
